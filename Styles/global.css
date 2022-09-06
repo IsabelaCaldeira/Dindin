@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  width: 100%;
+}
+.container-logo {
+  background-color: #2e948a;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.logo {
+  margin-left: 20%;
+}
+.logo-footer {
+  margin-left: 5%;
+}
+
+.menu-item {
+  display: inline;
+  margin-right: 20px;
+  padding: 5px;
+  gap: 30px;
+}
+.menu-item-link {
+  color: #fff;
+  font-weight: bold;
+  font-style: 20px;
+  text-decoration: none;
+  margin: 10px, 20px;
+}
+#banner-index {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.banner-titulo {
+  color: #ff4081;
+  font-weight: bold;
+  font-size: 300%;
+  display: block;
+}
+.banner-subtitulo{
+    color:  #555555;
+    margin-bottom: 5vh;
+    font-size: 130%;
+}
+.rose-button-banneri{
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #FFF;
+  color: #FF4081;
+  border: 2px solid #FF4081;
+  border-radius: 220px;
+  width: 50%;
+  height: 50%;
+}
+.rose-button-banneri:hover{
+  color: #F7F7F7;
+  background-color: #FF4081;
+  transition: all 0.5s ease-in;
+}
+.container {
+  background-color: #F6F6F6;
+}
+
+#card-index{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;  
+}
+.rose-button{
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #FF4081;
+  color: #FFF;
+  border: 2px solid #FF4081;
+  border-radius: 220px;
+  width: 150%;
+  height:125%;
+}
+.rose-button:hover{
+  background-color: #fff;
+  color:#FF4081;
+  transition: all 0.5s ease-in;
+}
+.card h2{
+  font-size: 185%;
+  color:#FF4081;
+  font-weight: 200px;
+}
+.card p{
+  color: #000;
+  text-align: center;
+  font-size: 100%;
+  margin-top: 2px;
+  margin-top: 4px;
+}
+.card img{
+  max-height: 60%;
+  max-width: 40%x;
+}
+
+.sobre h2{
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 4%;
+  margin-left: 3%;
+  color: #009688;
+}
+.sobre-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap:4%;
+  margin-bottom: 5%;
+}
+.sobre-item{
+  display: flex;
+  flex-direction: row;
+}
+.button-footer {
+  text-decoration: none;
+  background-color: #2e948a;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 62px;
+  padding: 5px 30px;
+  transition: 300ms;
+  cursor: pointer;
+  margin-right: 20px;
+}
