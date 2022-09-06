@@ -133,6 +133,9 @@ body {
 .sobre-item{
   display: flex;
   flex-direction: row;
+  gap: 5%;
+  align-items: center;
+  justify-content: center;
 }
 .button-footer {
   text-decoration: none;
