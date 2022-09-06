@@ -137,6 +137,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+.sobre-item stan{ 
+  font-family: 'Nunity';
+  font-weight: 700;
+}
 .button-footer {
   text-decoration: none;
   background-color: #2e948a;
